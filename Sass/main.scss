@@ -1,0 +1,73 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sigmar', cursive;
+}
+
+body{
+    background-color: #131515;
+    overflow-x: hidden;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #91171F;
+
+    h1{
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+
+    img{
+        position: absolute;
+        height: 500px;
+        width: 750px;
+        object-fit: cover;
+    }
+
+          img:nth-of-type(1) {
+              transform: rotate(-6deg);
+          }
+    
+          img:nth-of-type(2) {
+              transform: rotate(-5deg);
+          }
+    
+          img:nth-of-type(3) {
+              transform: rotate(-3.5deg);
+          }
+    
+          img:nth-of-type(4) {
+              transform: rotate(-2deg);
+          }
+}
+
+section{
+    height: 100vh;
+}
+
+
+html.lenis {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
