@@ -18,9 +18,12 @@ body{
     text-align: center;
     color: #91171F;
 
-    h1{
+    .two{
+        overflow-y: hidden;
+        h1{
         font-size: 7rem;
         line-height: 6rem;
+    }
     }
 
     img{
@@ -49,6 +52,7 @@ body{
 
 section{
     height: 100vh;
+    background-color: #91171F;
 }
 
 

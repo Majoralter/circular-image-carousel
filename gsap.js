@@ -35,3 +35,8 @@ images.forEach(image => {
         duration: 8
     })
 })
+
+tl.to(".heading",{
+        yPercent: -120,
+        duration: 8
+    })
